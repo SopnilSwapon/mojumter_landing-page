@@ -6,6 +6,7 @@ import AppNavbar from "./Components/AppNavbar";
 import BannerSection from "./Components/BannerSection";
 import AboutUs from "./Components/AboutUs";
 import AppFooter from "./Components/AppFooter";
+import Services from "./Components/Services";
 
 // Load Inter (default font)
 const inter = Inter({
@@ -37,6 +38,7 @@ export default function RootLayout() {
         <div className="bg-foreground">
           <AboutUs />
         </div>
+        <Services />
         <AppFooter />
       </body>
     </html>
