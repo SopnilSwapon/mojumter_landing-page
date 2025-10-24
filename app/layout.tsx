@@ -7,6 +7,7 @@ import BannerSection from "./Components/BannerSection";
 import AboutUs from "./Components/AboutUs";
 import AppFooter from "./Components/AppFooter";
 import Services from "./Components/Services";
+import VideosSection from "./Components/VideosSection";
 
 // Load Inter (default font)
 const inter = Inter({
@@ -19,7 +20,7 @@ const inter = Inter({
 const barlowCondensed = Barlow_Condensed({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-barlow-condensed",
+  variable: "--font_type-barlow-condensed",
 });
 
 export const metadata: Metadata = {
@@ -39,6 +40,8 @@ export default function RootLayout() {
           <AboutUs />
         </div>
         <Services />
+        {/* Video Section */}
+        <VideosSection />
         <AppFooter />
       </body>
     </html>

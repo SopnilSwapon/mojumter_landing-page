@@ -8,8 +8,7 @@ export default function BannerSection() {
       bg-cover 
       bg-center 
       bg-no-repeat 
-      bg-black
-    "
+      bg-black"
         style={{
           backgroundImage: "url('/bannerLogo2.png')",
         }}
@@ -21,7 +20,7 @@ export default function BannerSection() {
       {/* Content Layer */}
       <div className="relative flex flex-col items-center mt-22 justify-center text-center text-white min-h-[60vh] sm:min-h-[70vh] lg:min-h-[calc(100vh-190px)] px-4 py-12">
         <div className="max-w-[1320px] w-full">
-          <h1 className="text-xl sm:text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-xl sm:text-4xl font-type-[var(--font-barlow-condensed)]  md:text-5xl font-bold mb-4">
             P.R.E.P. : PREPARE.{" "}
             <span className="text-secondary">
               {" "}
