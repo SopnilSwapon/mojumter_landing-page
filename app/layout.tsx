@@ -3,6 +3,7 @@ import { Inter, Barlow_Condensed } from "next/font/google";
 
 import "./globals.css";
 import AppNavbar from "./Components/AppNavbar";
+import BannerSection from "./Components/BannerSection";
 
 // Load Inter (default font)
 const inter = Inter({
@@ -30,6 +31,7 @@ export default function RootLayout() {
         className={`${inter.variable} ${barlowCondensed.variable} font-sans`}
       >
         <AppNavbar />
+        <BannerSection />
       </body>
     </html>
   );
