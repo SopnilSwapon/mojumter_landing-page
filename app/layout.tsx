@@ -4,6 +4,7 @@ import { Inter, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 import AppNavbar from "./Components/AppNavbar";
 import BannerSection from "./Components/BannerSection";
+import AboutUs from "./Components/AboutUs";
 
 // Load Inter (default font)
 const inter = Inter({
@@ -32,6 +33,9 @@ export default function RootLayout() {
       >
         <AppNavbar />
         <BannerSection />
+        <div className="bg-foreground">
+          <AboutUs />
+        </div>
       </body>
     </html>
   );

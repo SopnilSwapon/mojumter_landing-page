@@ -1,6 +1,6 @@
 export default function BannerSection() {
   return (
-    <section className="relative rounded-2xl overflow-hidden pt-25">
+    <section className="relative overflow-hidden pt-25">
       {/* Background Layer */}
       <div
         className="
