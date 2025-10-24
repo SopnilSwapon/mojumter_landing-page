@@ -51,16 +51,16 @@ export default function AppNavbar() {
 
         {/* Desktop Button */}
         <div className="hidden lg:flex gap-3">
-          <button className="p-3 rounded-full w-12 h-12 text-black border border-black">
+          <button className="cursor-pointer rounded-full w-12 h-12 text-black border border-black">
             YT
           </button>
-          <button className="p-3 rounded-full w-12 h-12 text-black border border-black">
+          <button className="cursor-pointer rounded-full w-12 h-12 text-black border border-black">
             IG
           </button>
-          <button className="p-3 rounded-full w-12 h-12 text-black border border-black">
+          <button className="cursor-pointer rounded-full w-12 h-12 text-black border border-black">
             FB
           </button>
-          <button className="lg:p-3 rounded-full w-12 h-12 text-black border border-black">
+          <button className="cursor-pointer rounded-full w-12 h-12 text-black border border-black">
             TW
           </button>
         </div>
@@ -94,16 +94,16 @@ export default function AppNavbar() {
 
           {/* Desktop Button */}
           <div className="flex gap-2">
-            <button className="lg:p-3 rounded-full w-12 h-12 text-black border border-black">
+            <button className="cursor-pointer rounded-full w-12 h-12 text-black border border-black">
               YT
             </button>
-            <button className="lg:p-3 rounded-full w-12 h-12 text-black border border-black">
+            <button className="cursor-pointer rounded-full w-12 h-12 text-black border border-black">
               IG
             </button>
-            <button className="lg:p-3 rounded-full w-12 h-12 text-black border border-black">
+            <button className="cursor-pointer rounded-full w-12 h-12 text-black border border-black">
               FB
             </button>
-            <button className="lg:p-3 rounded-full w-12 h-12 text-black border border-black">
+            <button className=" cursor-pointer rounded-full w-12 h-12 text-black border border-black">
               TW
             </button>
           </div>
